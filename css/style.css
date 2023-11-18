@@ -1343,7 +1343,7 @@ button {
   background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
 }
 
-.filter-item {
+.filter-item a {
   display: flex;
   justify-content: space-between;
   gap: 15px;
