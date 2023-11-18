@@ -143,7 +143,7 @@
     display: flex;
     position: fixed;
     z-index: 120;
-    background-color: rgb(64, 134, 244);
+    background-color: #FBFBFB;
     width: 40%;
     left: 0;
     flex-direction: column;
@@ -201,10 +201,11 @@
   .header__content._active .header__menu {
     position: fixed;
     z-index: 120;
-    background-color: rgb(64, 134, 244);
+    background-color: #FBFBFB;
     width: 20%;
     left: 0;
     top: 0;
+    opacity: 1;
     height: 100%;
   }
   .header__content._active .header__menu .menu__list {
