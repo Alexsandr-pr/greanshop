@@ -1846,6 +1846,7 @@ button {
   }
 }
 .main-page2__container {
+  min-width: 0;
   padding: 40px 15px 20px 15px;
   background: rgb(251, 251, 251);
   display: flex;
@@ -1863,6 +1864,7 @@ button {
   }
 }
 .main-page2__body {
+  min-width: 0;
   display: flex;
   gap: 20px;
   flex: 0 1 47.75%; /* 573/1200 */
@@ -1884,6 +1886,7 @@ button {
   }
 }
 .main-page2__slider-min {
+  min-width: 0;
   gap: 15px;
   flex: 0 19.801047%; /* 102/573 */
 }
@@ -1893,15 +1896,16 @@ button {
   }
 }
 .main-page2__slider-active {
+  min-width: 0;
   flex: 0 1 77.486911%; /* 444/573 */
 }
 @media (max-width: 487.98px) {
   .main-page2__slider-active {
     flex: 0 1 100%;
-    width: 100%;
   }
 }
 .main-page2__info-card {
+  min-width: 0;
   flex: 0 1 47.75%; /* 573/1200 */
 }
 @media (max-width: 1280.98px) {
@@ -1919,6 +1923,7 @@ button {
 }
 @media (max-width: 767.98px) {
   .main-page2__info-card {
+    margin-top: 5px;
     max-height: 100%;
     overflow: hidden;
   }
@@ -1927,19 +1932,14 @@ button {
 .slider-active__swiper {
   max-height: 458px;
 }
+@media (max-width: 767.98px) {
+  .slider-active__swiper {
+    max-height: 558px;
+  }
+}
 @media (max-width: 567.98px) {
   .slider-active__swiper {
     max-height: 400px;
-  }
-}
-@media (max-width: 487.98px) {
-  .slider-active__swiper {
-    max-height: 350px;
-  }
-}
-@media (max-width: 387.98px) {
-  .slider-active__swiper {
-    max-height: 300px;
   }
 }
 
@@ -1957,14 +1957,17 @@ button {
   }
 }
 
-.slider-min__slide {
+.slider-min__slide .swiper-slide {
   width: 100px;
   height: 100px;
 }
 @media (hover: hover) {
-  .slider-min__slide:hover {
+  .slider-min__slide .swiper-slide:hover {
     cursor: pointer;
   }
+}
+.slider-min__slide .swiper-slide .swiper-slide {
+  max-width: 100px !important;
 }
 
 @media (min-width: 991.98px) {
@@ -1979,23 +1982,16 @@ button {
     max-width: 100%;
   }
 }
-@media (min-width: 567.98px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
   .slider-active__slide img {
-    object-fit: cover;
     width: 100%;
     height: 100%;
-  }
-}
-@media (max-width: 567.98px) {
-  .slider-active__slide img {
-    max-width: 100%;
+    object-fit: cover;
   }
 }
 @media (max-width: 487.98px) {
   .slider-active__slide img {
     object-fit: contain;
-    width: 100%;
-    height: 100%;
   }
 }
 
