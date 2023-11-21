@@ -310,6 +310,42 @@
             "price": 539.00
         }
     ],
-    "requests": [
+    "products": [
+        {
+            "img": "img/page2/products/image1.jpg",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "img/page2/products/image2.jpg",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        },
+        {
+            "img": "img/page2/products/image3.jpg",
+            "name": "Aluminum Plant",
+            "price": 179.00
+        },
+        {
+            "img": "img/page2/products/image4.jpg",
+            "name": "Bird's Nest Fern",
+            "price": 99.00
+        },
+        {
+            "img": "img/page2/products/image5.jpg",
+            "name": "Chinese Evergreen",
+            "price": 39.00
+        },
+        {
+            "img": "img/page2/products/image1.jpg",
+            "name": "Beach Spider Lily",
+            "price": 129.00
+        },
+        {
+            "img": "img/page2/products/image2.jpg",
+            "name": "Blushing Bromeliad",
+            "price": 139.00
+        }
     ]
+
 }

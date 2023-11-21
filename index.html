@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="range">
 	 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +17,11 @@
 		<div class="wrapper">
 			<header class="header">
     <div class="header__container">
-       
         <div class="header__body">
             <div data-da=".header__menu-mobile,850,2" class="header__logo ">
-                <img src="img/header/logo.svg" alt="Logo">
+                <a href="index.html"><img src="img/header/logo.svg" alt="Logo"></a>
             </div>
-            <div class="header__content  ">
+            <div class="header__content ">
                 <nav id="menu-desctop" data-da=".header__menu-mobile,992,1" class="header__menu menu ">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -48,7 +47,7 @@
                             <span class="search__btn">
                                 <img src="img/header/Search-2.svg" alt="search">
                             </span>
-                            <input name="search" placeholder="Find your plants" class="search__input" type="search">
+                            <input id="search" name="search" placeholder="Find your plants" class="search__input" type="search">
                         </div>
                         <div  id="search" class="header__btn-search">
                             <img  src="img/header/search.svg" alt="search">
@@ -553,6 +552,10 @@
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="main-store__button">
+								<div class="main-store__btn-left swiper-btn-left"><i class="fa-solid fa-chevron-left "></i></div>
+								<div class="main-store__btn-right swiper-btn-right"><i class="fa-solid fa-chevron-left fa-rotate-180"></i></div>
 							</div>
 						</div>
 					</div>
