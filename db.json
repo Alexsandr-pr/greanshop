@@ -350,8 +350,44 @@
             "name": "Blushing Bromeliad",
             "price": 139.00
         }
+    ],
+    "mainBlockSlide":[
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>1",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "img/main/main-block/01.png",
+            "imageMobile": "img/main/main-block/bg.png",
+            "alt": "Image"
+        },
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>2",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "img/main/main-block/01.png",
+            "imageMobile": "img/main/main-block/bg.png",
+            "alt": "Image"
+        },
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>3",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "img/main/main-block/01.png",
+            "imageMobile": "img/main/main-block/bg.png",
+            "alt": "Image"
+        },
+        {
+            "label": "Welcome to GreenShop",
+            "title": "Let's Make a Better <span>Planet</span>4",
+            "text": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+            "textMobile": "We are an online plant shop offering a wide range ",
+            "imageDestop": "img/main/main-block/01.png",
+            "imageMobile": "img/main/main-block/bg.png",
+            "alt": "Image"
+        }
     ]
-   
-
 
 }

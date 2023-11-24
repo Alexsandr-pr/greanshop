@@ -14,7 +14,7 @@
 	<title>Главная</title>
 </head>
 	<body>
-		<div class="wrapper">
+		<div class="wrapper wrapper1">
 			<header class="header">
     <div class="header__container">
         <div class="header__body">
@@ -49,14 +49,14 @@
                             </span>
                             <input id="search" name="search" placeholder="Find your plants" class="search__input" type="search">
                         </div>
-                        <div  id="search" class="header__btn-search">
+                        <div  id="search1" class="header__btn-search">
                             <img  src="img/header/search.svg" alt="search">
                         </div>
                     </div>
-                    <div data-da=".header__menu-mobile,768,3" class="header__btn  header__btn-card">
+                    <div  class="header__btn  header__btn-card">
                         <img src="img/header/card.svg" alt="card">
                     </div>
-                    <div data-da=".header__menu-mobile,768,4" class="header__btn ">
+                    <div  class="header__btn ">
                         <a id="loginBtn" class="header__btn-login" href="/">Login</a>
                     </div>
                 </div>
@@ -81,84 +81,7 @@
 					<div class="main-block__body">
 						<div class="main-block__swiper swiper">
 							<div class="main-block__swiper-wrapper swiper-wrapper">
-								<div class="main-block__slide block-slide swiper-slide  main-block__slide-1">
-									
-									<div class="block-slide__body">
-										<div class='block-slide__header-item header-item'>
-											<div   class="header-item__label">Welcome to GreenShop</div>
-											<div  class='header-item__title _anim-items'>
-												<h1>Let’s Make a
-													Better <span>Planet</span>1</h1>
-											</div>
-											<div class='header-item__text text  _anim-items'>
-												<p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
-											</div>
-											<div class="header-item__text2 text">
-												<p>We are an online plant shop offering a wide range </p>
-											</div>
-											<div  class="header-item__buttons">
-												<a href="/" class="button">SHOP NOW</a>
-											</div>
-										</div>
-										<div  class="block-slide__image">
-											
-											<picture>
-												<source media="(min-width:568px)" type="png" srcset="img/main/main-block/01.png">
-												<source media="(max-width:568px)" type="png" srcset="img/main/main-block/bg.png">
-												<img src="img/main/main-block/01.png" alt="Image">
-											</picture>
-										</div>
-									
-									</div>
-								</div>
-								<div class="main-block__slide block-slide swiper-slide  main-block__slide-2">
-									
-									<div class="block-slide__body">
-										<div class='block-slide__header-item header-item'>
-											<div  class="header-item__label">Welcome to GreenShop</div>
-											<div  class='header-item__title _anim-items'>
-												<h1>Let’s Make a
-													Better <span>Planet</span>2</h1>
-											</div>
-											<div class='header-item__text text  _anim-items'>
-												<p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
-											</div>
-											<div class="header-item__text2 text">
-												<p>We are an online plant shop offering a wide range </p>
-											</div>
-											<div  class="header-item__buttons">
-												<a href="/" class="button">SHOP NOW</a>
-											</div>
-										</div>
-										<div  class="block-slide__image">
-											<img src="img/main/main-block/01.png" alt="Image">
-										</div>
-									</div>
-								</div>
-								<div class="main-block__slide block-slide swiper-slide  main-block__slide-3">
-									
-									<div class="block-slide__body">
-										<div class='block-slide__header-item header-item'>
-											<div   class="header-item__label">Welcome to GreenShop</div>
-											<div  class='header-item__title _anim-items'>
-												<h1>Let’s Make a
-													Better <span>Planet</span>3</h1>
-											</div>
-											<div class='header-item__text text  _anim-items'>
-												<p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
-											</div>
-											<div class="header-item__text2 text">
-												<p>We are an online plant shop offering a wide range </p>
-											</div>
-											<div   class="header-item__buttons">
-												<a href="/" class="button">SHOP NOW</a>
-											</div>
-										</div>
-										<div  class="block-slide__image">
-											<img src="img/main/main-block/01.png" alt="Image">
-										</div>
-									</div>
-								</div>
+								
 							</div>
 							<div class="swiper-pagination"></div>
 						</div>
@@ -634,15 +557,15 @@
 					<img src="img/menu/like.svg" alt="like">
 				</div>
 			</div>
-			<span>
+			<span id="openFilterMobile">
 				<img src="img/menu/menu.svg" alt="menu">
 			</span>
 			<div class="menu-mobile__items   menu-mobile__items-2">
 				<div class="menu-mobile__item">
 					<img src="img/menu/cart.svg" alt="cart">
 				</div>
-				<div class="menu-mobile__item">
-					<img src="img/menu/acc.svg" alt="account">
+				<div  class="menu-mobile__item">
+					<img id="loginBtn" src="img/menu/acc.svg" alt="account">
 				</div>
 			</div>
 		</div>

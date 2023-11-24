@@ -235,6 +235,12 @@
     display: flex;
   }
 }
+@media (max-width: 767.98px) {
+  .header__btn {
+    display: none;
+  }
+}
+
 .menu__list {
   display: flex;
   column-gap: 50px;
@@ -757,7 +763,6 @@
   left: 0;
   z-index: 200;
   background: rgba(10, 13, 18, 0.25);
-  overflow-y: scroll;
 }
 
 .popap__wrapper {
@@ -773,6 +778,13 @@
   margin: 0px auto;
   border-bottom: 10px solid #46A358;
   background: #FFF;
+}
+@media (max-width: 567.98px) {
+  .popap__content {
+    max-width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
 @media (hover: hover) {
   .popap__close:hover {
@@ -921,6 +933,14 @@
   position: relative;
   padding: 50px 100px;
 }
+@media (max-width: 567.98px) {
+  .popap-login__body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: calc(20px + 80 * (100vw - 320px) / 247);
+    padding-left: calc(20px + 80 * (100vw - 320px) / 247);
+  }
+}
 
 .popap-login__content._active {
   display: block;
@@ -997,6 +1017,11 @@
 .content-popup__button:focus {
   border: 1px solid #46A358;
 }
+@media (max-width: 487.98px) {
+  .content-popup__button {
+    max-width: 100%;
+  }
+}
 
 .popup-form__item:not(:last-child) {
   margin-bottom: 16px;
@@ -1029,6 +1054,11 @@
   justify-content: center;
   width: 300px;
   margin-bottom: 36px;
+}
+@media (max-width: 487.98px) {
+  .popup-form__button {
+    width: 100%;
+  }
 }
 
 *,
@@ -3527,8 +3557,8 @@ body::-webkit-scrollbar-track {
 }
 
 @media (max-width: 767.98px) {
-  .wrapper {
-    height: 90%;
+  .wrapper1 {
+    height: 90% !important;
     overflow-y: scroll;
   }
 }
