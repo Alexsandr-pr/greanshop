@@ -2,21 +2,25 @@
     "card1":[
         
         {
+            "id": 1,
             "img": "img/main/main-block/card-item/image1.jpg",
             "name": "Barberton Daisy",
             "price": 119.00
         },
         {
+            "id": 2,
             "img": "img/main/main-block/card-item/image2.jpg",
             "name": "Angel Wing Begonia",
             "price": 169.00
         },
         {
+            "id": 3,
             "img": "'img/main/main-block/card-item/image3.jpg'",
             "name": "African Violet",
             "price": 199.00
         },
         {
+            "id": 4,
             "img": "'img/main/main-block/card-item/image4.jpg'",
             "name": "Beach Spider Lily",
             "price": 129.00
@@ -347,5 +351,7 @@
             "price": 139.00
         }
     ]
+   
+
 
 }
