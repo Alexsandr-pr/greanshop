@@ -21,7 +21,7 @@
             <div data-da=".header__menu-mobile,850,2" class="header__logo ">
                 <a href="index.html"><img src="img/header/logo.svg" alt="Logo"></a>
             </div>
-            <div class="header__content ">
+            <div class="header__content">
                 <nav id="menu-desctop" data-da=".header__menu-mobile,992,1" class="header__menu menu ">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -34,7 +34,7 @@
                             <a href='index3.html' class="menu__link">Plant Care</a>
                         </li>
                         <li class="menu__item">
-                            <a href='#' class="menu__link">Blogs</a>
+                            <a href='index4.html' class="menu__link">Blogs</a>
                         </li>
                     </ul>
                 </nav>
@@ -57,7 +57,7 @@
                         <img src="img/header/card.svg" alt="card">
                     </div>
                     <div data-da=".header__menu-mobile,768,4" class="header__btn ">
-                        <a class="header__btn-login" href="/">Login</a>
+                        <a id="loginBtn" class="header__btn-login" href="/">Login</a>
                     </div>
                 </div>
                 <div class="header__menu-mobile">
@@ -75,8 +75,218 @@
     </div>
 </header>
 		<main class="main">
-			
-			
+			<div class="main__shopping-cart shopping-cart">
+				<div class="shopping-cart__container">
+					<div class="shopping-cart__body">
+						<div class="shopping-cart__items">
+							<div class="shopping-cart__title ">
+								<h2>Products</h2>
+							</div>
+							<div class="shopping-cart__item">
+								<div class="shopping-cart__title ">
+									<h2>Price</h2>
+								</div>
+								<div class="shopping-cart__title ">
+									<h2>Quantity</h2>
+								</div>
+								<div class="shopping-cart__title ">
+									<h2>Total</h2>
+								</div>
+							</div>
+						</div>
+						<ul class="shopping-cart__list">
+							<li class="shopping-cart__link element-card">
+								<div class="element-card__info element-card-info">
+									<div class="element-card-info__image">
+										<img src="img/cart/image1.jpg" alt="Image">
+									</div>
+									<div class="element-card-info__body">
+										<a href="/"><h3 class="element-card-info__title">Barberton Daisy</h3></a>
+										<div class="element-card-info__size">
+											<p>Size :<span> M</span></p>
+										</div>
+										<div data-mobile="mobile-totall-sum" class="element-card__total">
+											<span>$238.00</span>
+										</div>
+										<div class="element-card-info__code info-list">
+											<div class="info-list__item">
+												<p>SKU: <span>1995751877966</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="element-card__content">
+									<div class="element-card__price">
+										<span>$119.00</span>
+									</div>
+									<div class="element-card__quantity quantity">
+										<div class="quantity__current ">
+											<div class="quantity__btn-value-1">
+												<a href="/">-</a>
+											</div>
+											<span>9</span>
+											<div class="quantity__btn-value-1">
+												<a href="/">+</a>
+											</div>
+										</div>
+									</div>
+									<div data-desktop="desktop-tablet" class="element-card__total">
+										<span>$238.00</span>
+									</div>
+									<button class="element-card__delete">
+										<svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+											<path d="M15.8892 8.55408C15.8892 16.5731 17.0435 20.1979 9.27967 20.1979C1.5149 20.1979 2.693 16.5731 2.693 8.55408" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M17.3651 5.47979H1.2146" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M12.7148 5.47979C12.7148 5.47979 13.2434 1.71408 9.28911 1.71408C5.33578 1.71408 5.86435 5.47979 5.86435 5.47979" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</button>
+								</div>
+							</li>
+							<li class="shopping-cart__link element-card">
+								<div class="element-card__info element-card-info">
+									<div class="element-card-info__image">
+										<img src="img/cart/image1.jpg" alt="Image">
+									</div>
+									<div class="element-card-info__body">
+										<h3 class="element-card-info__title">Barberton Daisy</h3>
+										<div class="element-card-info__size">
+											<p>Size :<span> S</span></p>
+										</div>
+										<div data-mobile="mobile-totall-sum" class="element-card__total">
+											<span>$238.00</span>
+										</div>
+										<div class="element-card-info__code info-list">
+											<div class="info-list__item">
+												<p>SKU: <span>1995751877966</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="element-card__content">
+									<div  class="element-card__price">
+										<span>$119.00</span>
+									</div>
+									<div class="element-card__quantity quantity">
+										<div class="quantity__current ">
+											<div class="quantity__btn-value-1">
+												<a href="/">-</a>
+											</div>
+											<span>9</span>
+											<div class="quantity__btn-value-1">
+												<a href="/">+</a>
+											</div>
+										</div>
+									</div>
+									<div data-desktop="desktop-tablet" class="element-card__total">
+										<span>$238.00</span>
+									</div>
+									<button class="element-card__delete">
+										<svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+											<path d="M15.8892 8.55408C15.8892 16.5731 17.0435 20.1979 9.27967 20.1979C1.5149 20.1979 2.693 16.5731 2.693 8.55408" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M17.3651 5.47979H1.2146" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M12.7148 5.47979C12.7148 5.47979 13.2434 1.71408 9.28911 1.71408C5.33578 1.71408 5.86435 5.47979 5.86435 5.47979" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</button>
+								</div>
+								
+							</li>
+							<li class="shopping-cart__link element-card">
+								<div class="element-card__info element-card-info">
+									<div class="element-card-info__image">
+										<img src="img/cart/image1.jpg" alt="Image">
+									</div>
+									<div class="element-card-info__body ">
+										<h3 class="element-card-info__title">Barberton Daisy</h3>
+										<div class="element-card-info__size">
+											<p>Size :<span>M</span></p>
+										</div>
+										<div data-mobile="mobile-totall-sum" class="element-card__total">
+											<span>$238.00</span>
+										</div>
+										<div class="element-card-info__code info-list">
+											<div class="info-list__item">
+												<p>SKU: <span>1995751877966</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="element-card__content">
+									<div class="element-card__price">
+										<span>$119.00</span>
+									</div>
+									<div class="element-card__quantity quantity">
+										<div class="quantity__current ">
+											<div class="quantity__btn-value-1">
+												<a href="/">-</a>
+											</div>
+											<span>9</span>
+											<div class="quantity__btn-value-1">
+												<a href="/">+</a>
+											</div>
+										</div>
+									</div>
+									<div data-desktop="desktop-tablet" class="element-card__total">
+										<span>$238.00</span>
+									</div>
+									<button class="element-card__delete">
+										<svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+											<path d="M15.8892 8.55408C15.8892 16.5731 17.0435 20.1979 9.27967 20.1979C1.5149 20.1979 2.693 16.5731 2.693 8.55408" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M17.3651 5.47979H1.2146" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M12.7148 5.47979C12.7148 5.47979 13.2434 1.71408 9.28911 1.71408C5.33578 1.71408 5.86435 5.47979 5.86435 5.47979" stroke="#727272" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</button>
+								</div>
+								
+							</li>
+						</ul>
+					</div>
+					<div class="shopping-cart__check cart-check">
+						<div class="cart-check__title">
+							<h3>Cart Totals</h3>
+						</div>
+						<div class="cart-check__form cart-form">
+							<div class="cart-form__code input-code">
+								<div class="input-code__title">Coupon Apply</div>
+								<div class="input-code__item">
+									<input type="text" class="input-code__input" placeholder="Enter coupon code here...">
+									<button  class="input-code__button">Apply</button>
+								</div>
+							</div>
+							<ul class="cart-form__list">
+								<li class="cart-form__item">
+									<h4 class="cart-form__title">Subtotal</h4>
+									<span class="cart-form__value">$2,683.00</span>
+								</li>
+								<li class="cart-form__item">
+									<h4 class="cart-form__title">Coupon Discount</h4>
+									<span class="cart-form__value">(-) 00.00</span>
+								</li>
+								<li class="cart-form__item">
+									<h4 class="cart-form__title">Shiping</h4>
+									<span class="cart-form__value">$16.00</span>
+								</li>
+								<div class="cart-form__item-for">
+									<a>View shipping charge</a>
+								</div>
+							</ul>
+						</div>
+						<form class="cart-check__total total">
+							<div class="total__item">
+								<div class="total__title">
+									<p>Total</p>
+								</div>
+								<div class="total__value">
+									<input type="text" value="$2,699.00" readonly>
+								</div>
+							</div>
+							<div class="total__buttons">
+								<a href="/" class="total__button">Proceed To Checkout</a>
+								<a class="total__button-and">Continue Shopping</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 			<div class="main__products main-products">
 				<div class="main-products__container">
 					<div class="main-products__body">
@@ -180,7 +390,7 @@
                     </div>
                     <ul class="footer-bottom__list footer-list">
                         <li class="footer-list__item">
-                            <a href="/" class="footer-list__link">My Account</a>
+                            <a href="index5.html" class="footer-list__link">My Account</a>
                         </li>
                         <li class="footer-list__item">
                             <a href="/" class="footer-list__link">Our stores</a>
