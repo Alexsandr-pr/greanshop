@@ -14,7 +14,7 @@
 	<title>Главная</title>
 </head>
 	<body>
-		<div class="wrapper">
+		<div class="wrapper wrapper-2">
 			<header class="header">
     <div class="header__container">
         <div class="header__body">
@@ -27,7 +27,7 @@
                         <li class="menu__item">
                             <a href='index.html' class="menu__link">Home</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-shop">
                             <a href='index2.html' class="menu__link">Shop</a>
                         </li>
                         <li class="menu__item">
@@ -78,70 +78,71 @@
 			<section class="main__page2 main-page2">
 				<div class="main-page2__container">
 					<div class="main-page2__body">
-						<div class="main-page2__slider-min slider-min">
-							<div class="slider-min__swiper swiper">
-								<div class="slider-min__swiper-wrapper swiper-wrapper">
-									<div class="slider-min__slide swiper-slide">
-										<img class="slider-min__slide-trigger" src="img/page2/slider/image-min-1.png" alt="Картинка">
-									</div>
-									<div class="slider-min__slide swiper-slide">
-										<img class="slider-min__slide-trigger" src="img/page2/slider/image-min-2.png" alt="Картинка">
-									</div>
-									<div class="slider-min__slide swiper-slide">
-										<img class="slider-min__slide-trigger" src="img/page2/slider/image-min-1.png" alt="Картинка">
-									</div>
-									<div class="slider-min__slide swiper-slide">
-										<img class="slider-min__slide-trigger" src="img/page2/slider/image-min-2.png" alt="Картинка">
-									</div>
-									<div class="slider-min__slide swiper-slide">
-										<img class="slider-min__slide-trigger" src="img/page2/slider/image-min-1.png" alt="Картинка">
-									</div>
-								</div>
-							</div>
-						</div>
+						<a href="" id="blockItemBack" class="block-item">
+							<img src="img/menu/ArrowLeft.svg" alt="image">
+						</a>
 						<div class="main-page2__slider-active slider-active">
 							<div class="slider-active__swiper swiper">
 								<div class="slider-active__swiper-wrapper swiper-wrapper">
 									<div class="slider-active__slide swiper-slide">
-										<img src="img/page2/slider/image1.png" alt="Image">
+										<img src="img/page2/slider/image.jpg" alt="Image">
+										<div class="card-item__likes">
+											<i class="fa-regular fa-heart"></i>
+										</div>
 									</div>
 									<div class="slider-active__slide swiper-slide">
-										<img src="img/page2/slider/image2.png" alt="Image">
+										<img src="img/page2/slider/image.jpg" alt="Image">
+										<div class="card-item__likes">
+											<i class="fa-regular fa-heart"></i>
+										</div>
 									</div>
 									<div class="slider-active__slide swiper-slide">
-										<img src="img/page2/slider/image1.png" alt="Image">
+										<img src="img/page2/slider/image.jpg" alt="Image">
+										<div class="card-item__likes">
+											<i class="fa-regular fa-heart"></i>
+										</div>
 									</div>
 									<div class="slider-active__slide swiper-slide">
-										<img src="img/page2/slider/image2.png" alt="Image">
+										<img src="img/page2/slider/image.jpg" alt="Image">
+										<div class="card-item__likes">
+											<i class="fa-regular fa-heart"></i>
+										</div>
 									</div>
 									<div class="slider-active__slide swiper-slide">
-										<img src="img/page2/slider/image1.png" alt="Image">
+										<img src="img/page2/slider/image.jpg" alt="Image">
+										<div class="card-item__likes">
+											<i class="fa-regular fa-heart"></i>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
 					<div class="main-page2__info-card info-card">
 						<div class="info-card__body">
 							<div class="info-card__title">
 								<h2>Barberton Daisy</h2>
 							</div>
 							<div class="info-card__top info-top">
-								<div class="info-top__price">
+								<div data-da=".menu-mobile-page-2__top,567,2" class="info-top__price">
 									<p>$119.00</p>
 								</div>
-								<div class="info-top__body">
+								<div data-da=".info-card__title,567,2" class="info-top__body">
 									<div class="info-top__rating">
-										*****
+										<img class="info-top__img info-top__img-1" src="img/page2/star.svg" alt="star">
+										<img class="info-top__img" src="img/page2/star.svg" alt="star">
+										<img class="info-top__img" src="img/page2/star.svg" alt="star">
+										<img class="info-top__img" src="img/page2/star.svg" alt="star">
+										<img class="info-top__img" src="img/page2/star.svg" alt="star">
+										<span>4.8</span>
 									</div>
 									<div class="info-top__retvit">
-										<a href="/">19 Customer Review</a>
+										<a href="/"> <p>(</p>19 <p>)</p> <span>Customer Review</span></a>
 									</div>
 								</div>
 							</div>
 							<div class="info-card__item">
-								<div class="info-card__sub-title">
+								<div class="info-card__sub-title info-card__sub-title-desktop">
 									<p>Short Description:</p>
 								</div>
 								<div class="info-card__description text">
@@ -172,17 +173,17 @@
 										</label>
 									</div>
 									<div class="info-form__item">
-										<div class="info-form__current info-current">
+										<div data-da=".menu-mobile-page-2__top,567,1" class="info-form__current info-current">
 											<div class="info-current__btn-value-1">
 												<a href="/">-</a>
 											</div>
-											<input type="number" class="info-current__value"  value="100" max="100">
+											<input type="number" class="info-current__value"  value="1" max="100">
 											<div class="info-current__btn-value-1">
 												<a href="/">+</a>
 											</div>
 										</div>
 										<div class="info-form__buttons">
-											<a href="/" class="info-form__button info-form__buy-now">Buy NOW</a>
+											<a data-da=".menu-mobile-page-2__content,567,1" href="/" class="info-form__button info-form__buy-now">Buy NOW</a>
 											<button type="submit" class="info-form__button info-form__cart">Add to cart</button>
 											<div class="info-form__like">
 												<p><i class="fa-regular fa-heart"></i></p>
@@ -510,6 +511,17 @@
         </div>
     </div>
 </footer>
+		</div>
+		<div class="menu-mobile-page-2 menu-mobile-page-2-height">
+			<div class="menu-mobile-page-2__top">
+
+			</div>
+			<div class="menu-mobile-page-2__content">
+
+				<div class="menu-mobile-page-2__cart">
+					<i class="fa-solid fa-cart-shopping"></i>
+				</div>
+			</div>
 		</div>
 		<script src="https://kit.fontawesome.com/bc2d359d6d.js" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
